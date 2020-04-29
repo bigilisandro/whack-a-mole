@@ -1,25 +1,36 @@
 body {
-    background-color: darkkhaki;
+    background-color: cadetblue;
 }
 
 .title {
     text-align: center;
     font-size: 40px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Bangers', cursive;
     font-weight: bold;
 }
 
+.title:hover {
+    color: chocolate;
+    cursor: pointer;
+  }
+
+
 .subtitle {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Bangers', cursive;
     font-size: 25px;
     text-align: center;
+}
+
+.subtitle:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
 }
 
 .href {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Bangers', cursive;
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -57,3 +68,16 @@ body {
     background-color: chocolate;
     cursor: pointer;
 }
+
+.home {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .home:hover {
+    color: chocolate;
+  }
